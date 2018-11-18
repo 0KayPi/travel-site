@@ -25,21 +25,6 @@ class StickyHeader {
 		this.headerLinks.smoothScroll();
 	}
 
-/*	createHeaderWaypoint() {
-		var that = this;
-		new Waypoint({
-			element: this.headerTriggerElement[0],
-			handler: function(direction) {
-				if (direction == "down") {
-					that.siteHeader.addClass("site-header--dark");
-				} else {
-					that.siteHeader.removeClass("site-header--dark");
-				}
-			}
-		});
-	}*/
-
-
 	createHeaderWaypoint() {
 	    var that = this;
 	    new Waypoint({

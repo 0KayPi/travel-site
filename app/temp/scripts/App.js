@@ -11263,20 +11263,6 @@ function () {
     value: function addSmoothScrolling() {
       this.headerLinks.smoothScroll();
     }
-    /*	createHeaderWaypoint() {
-    		var that = this;
-    		new Waypoint({
-    			element: this.headerTriggerElement[0],
-    			handler: function(direction) {
-    				if (direction == "down") {
-    					that.siteHeader.addClass("site-header--dark");
-    				} else {
-    					that.siteHeader.removeClass("site-header--dark");
-    				}
-    			}
-    		});
-    	}*/
-
   }, {
     key: "createHeaderWaypoint",
     value: function createHeaderWaypoint() {
