@@ -76,3 +76,17 @@ class StickyHeader {
 }
 
 export default StickyHeader;
+
+
+/*refreshWaypoints(){
+    this.lazyImages.load(function(){
+      Waypoint.refreshAll();
+    });
+}
+to this instead:
+
+refreshWaypoints(){
+    this.lazyImages.on('load', function(){
+      Waypoint.refreshAll();
+    });
+}*/
